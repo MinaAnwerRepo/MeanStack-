@@ -5,5 +5,5 @@ npm install -g @angular/cli    to install node js app
 ng new my-first-app            to create new app 
 
 cd my-first-app                  go to folder
-ng-serve                         compile code 
+ng serve                         compile code 
 localhost:4200                  see your app 
