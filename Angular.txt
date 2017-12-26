@@ -11,4 +11,5 @@ localhost:4200                  see your app
 
 npm cash clean                   to clean app cash in memory 
 
-npm cache clean -f               force to clean 
+npm cache clean -f               force to clean
+npm cache clean --f              
