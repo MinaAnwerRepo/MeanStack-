@@ -7,3 +7,8 @@ ng new my-first-app            to create new app
 cd my-first-app                  go to folder
 ng serve                         compile code 
 localhost:4200                  see your app 
+
+
+npm cash clean                   to clean app cash in memory 
+
+npm cache clean -f               force to clean 
