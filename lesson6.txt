@@ -1,0 +1,39 @@
+Demo one : 
+//-----------------------------------------------------------------------------------
+1- display text using model 
+ +  at appcomponant.ts
+ import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+ name='';
+ title="does it change"
+}
+
++ at html file appcomponant.html 
+
+<h1>{{title}}</h1>
+
+//-----------------------------------------------------------------------------------
+2- display text box values in paragraph : 
+
++ appcomponant.html : 
+<input type="text" [(ngModel)]=name  />
+
+<p>{{name}}</p>
+
++ app componant.ts :
+
+name="";
+//---------------------------------------------------------------------------------
+
+10 - to install bootstrap in your project 
+
++ npm install --save bootstrap
+
++ 
+
